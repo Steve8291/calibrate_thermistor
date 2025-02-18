@@ -1,10 +1,10 @@
 # Calibrate-Thermistor
 I wrote this to help calibrate a thermistor for my hot tub. So the goal was to find the smallest buffer that would provide the smoothest data so as to not have my heater continually turning on and off. The thermistor I was using did not have a data sheet and I wanted to get the most accurate temperatures possible. Using a custom calibration curve provides a much more accurate temperature than the Steinhart-Hart, β model or other methods.
 
-- This program is designed to do 3 things:
-  1) Aid in selecting an appropriate sized buffer for oversampling.
-  2) Determine whether using median or average on that buffer provides the smoothest data.
-  3) Record data points for creating a custom temperature curve that can be used in a cubic equation. Extremely accurate callibration!
+This program is designed to do 3 things:
+1) Aid in selecting an appropriate sized buffer for oversampling.
+2) Determine whether using median or average on that buffer provides the smoothest data.
+3) Record data points for creating a custom temperature curve that can be used in a cubic equation. Extremely accurate callibration!
 
 I was using an ESP32 board but this should work equally well on any Arduino, etc. Below you will find my notes on what I discoverd and how to use this program.
 
