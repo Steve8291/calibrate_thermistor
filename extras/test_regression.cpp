@@ -1,4 +1,7 @@
 /*
+Comparison of sig figs in a float vs double.
+Comparison of using 4th vs 3rd order polynomial.
+Makes almost no difference when getting temp to two decimal places.
 Testing floats vs doubles: No noticeable difference.
 Testing 3rd order vs 4th order polynomial: No noticeable difference.
 */
