@@ -35,7 +35,7 @@ const unsigned long BAUD_RATE = 115200;
 
 // GPIO pin for thermistor input
 const int THERMISTOR_INPUT_PIN = GPIO_NUM_4;
-const int THERMISTOR_POWER_PIN = GPIO_NUM_5;
+const int THERMISTOR_POWER_PIN = GPIO_NUM_3;
 
 // Rotary Encoder Settings:
 const int ENCODER_A_PIN = GPIO_NUM_14;       // CLK

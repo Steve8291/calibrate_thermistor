@@ -25,7 +25,7 @@ Thermistors experience self-heating as current flows through them. The fixed res
   While this is more towards the upper end of what I might need to measure, it is the temp I care most about.
 
 ## Smoothing Readings With A Bypass Capacitor
-Use a low value capacitor to create a low pass filter and reject high frequency noise.
+Use a low value capacitor to create a low pass filter and reject high frequency noise. I ran some test both with and without a bypass capacitor. Some sources suggest that without a bypass capacitor the excess noise will help with oversampling. I did not find that to be the case. Without a capacitor I needed a sample size of 4095 to reach the same standard deviation I was getting with a capacitor at a sample size of only 511.
 
 1) A 0.1µF ceramic bypass capacitor is added so that one leg is as close as possible to the pin being used to power the voltage divider. Yes, getting it as close as possible does make a difference! Do some tests or watch a video if you don't believe it.
 2) If you are using some sort of a proto-shield or other pcb board for your build, finish all your fabrication now. This will allow for better calibration results.
